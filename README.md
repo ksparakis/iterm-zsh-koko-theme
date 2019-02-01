@@ -1,6 +1,6 @@
 # Koko Theme
 
-I created this repo so whenever I move to a new computer or change my theme setups for my terminal development, I can keep everything in sync. Having a good terminal setup with the right plugins and feel gets increases your productivity!
+I created this repo so whenever I move to a new computer or change my theme setups for my terminal development, I can keep everything in sync. Having a good terminal setup with the right plugins gets increases your productivity flying and just feels good! Who ever said teminals should concern them selves with UI/UX?
 
 ![Theme Sample](https://raw.githubusercontent.com/ksparakis/iterm-zsh-koko-theme/master/terminal-sample.png "Koko Theme Sample")
 
