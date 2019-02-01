@@ -1,6 +1,12 @@
 # Koko Theme
 
-I created this repo so whenever I move to a new computer or change my theme setups for my terminal development, I can keep everything in sync. Feel free to use my setup!
+I created this repo so whenever I move to a new computer or change my theme setups for my terminal development, I can keep everything in sync. Having a good terminal setup with the right plugins and feel gets increases your productivity!
+
+![Theme Sample](https://raw.githubusercontent.com/ksparakis/iterm-zsh-koko-theme/master/terminal-sample.png "Koko Theme Sample")
+
+
+
+--------
 
 Terminal: [ITerm2 Nightly Build](https://iterm2.com/downloads/nightly/#/section/home)
 
