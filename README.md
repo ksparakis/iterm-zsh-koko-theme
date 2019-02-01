@@ -1,4 +1,4 @@
-#Koko Theme
+# Koko Theme
 
 I created this repo so whenever I move to a new computer or change my theme setups for my terminal development, I can keep everything in sync. Feel free to use my setup!
 
@@ -47,7 +47,7 @@ POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND='magenta'
 POWERLEVEL9K_BACKGROUND_JOBS_BACKGROUND='clear'
 POWERLEVEL9K_BACKGROUND_JOBS_FOREGROUND='green
 ```
-Font: https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Meslo/S-DZ/complete/Meslo%20LG%20S%20DZ%20Regular%20Nerd%20Font%20Complete.otf
+Font: (Meslo Powerline Patched)[https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Meslo/S-DZ/complete/Meslo%20LG%20S%20DZ%20Regular%20Nerd%20Font%20Complete.otf]
 
 
 ItermColor Theme:
