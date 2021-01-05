@@ -21,7 +21,18 @@ Terminal Emulator: zsh latest version
 Plugin: Oh-My-Zsh
 Oh-My-ZSH- Theme: POWERLEVEL9K
 
-Powerline Config
+## Color
+
+download the .json and import it
+
+## FONT
+
+Font: [Meslo Powerline Patched](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Meslo/S-DZ/complete/Meslo%20LG%20S%20DZ%20Regular%20Nerd%20Font%20Complete.otf)
+
+- Font must be set inside of iterm options
+- Size 18
+
+# Powerline Config
 ```
 POWERLEVEL9K_MODE='nerdfont-complete'
 #POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
@@ -62,6 +73,6 @@ POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND='magenta'
 POWERLEVEL9K_BACKGROUND_JOBS_BACKGROUND='clear'
 POWERLEVEL9K_BACKGROUND_JOBS_FOREGROUND='green
 ```
-Font: [Meslo Powerline Patched](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Meslo/S-DZ/complete/Meslo%20LG%20S%20DZ%20Regular%20Nerd%20Font%20Complete.otf)
+
 
 
