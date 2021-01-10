@@ -1,13 +1,11 @@
-# ssh-add -K ~/.ssh/git_rsa > /dev/null
-
 #this makes go make release work
 export GOSUMDB=off
 
 export ANDROID_HOME="$HOME/Library/Android/sdk"
 
-PATH=$PATH:/Users/kosta/.gvm/bin:/Users/kosta/Library/Android/sdk/platform-tools:/user/local/opt/go/libexec/bin:/Users/kosta/go/bin:/Users/kosta/anaconda3/bin:/Users/kosta/.oh-my-zsh/zsh-autocomplete/completion
+PATH=$PATH:$HOME/.gvm/bin:$HOME/Library/Android/sdk/platform-tools:/user/local/opt/go/libexec/bin:$HOME/go/bin:$HOME/anaconda3/bin:$HOME/.oh-my-zsh/zsh-autocomplete/completion
 
-source /Users/kosta/.gvm/scripts/gvm
+source $HOME/.gvm/scripts/gvm
 
 #Setup some aliases to help glide work better with gvm and goland
 alias srcin='mkdir vendor/src; mv vendor/* vendor/src'
@@ -17,14 +15,14 @@ alias golocal='mkdir vendor/src/gitlab.com/tmp;mv vendor/src/gitlab.com/elixxir 
 alias goremote='rm vendor/src/gitlab.com/elixxir;mv vendor/src/gitlab.com/tmp/elixxir vendor/src/gitlab.com;rm -rf vendor/src/gitlab.com/tmp'
 
 #alias to quickly move to my elixxir projects folder
-alias belong='cd /Users/kosta/Dropbox/dev/belong'
+alias belong=cd $HOME/Dropbox/dev/belong
 alias vzsh='vim ~/.zshrc'
-
+alias ll='ls -a'
 #Setup alias for locate
 alias updateLocate='sudo /usr/libexec/locate.updatedb'
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/kosta/.oh-my-zsh"
+export ZSH=$HOME/.oh-my-zsh
 
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
@@ -79,7 +77,11 @@ export UPDATE_ZSH_DAYS=1
 # Add wisely, as too many plugins slow down shell startup.
 plugins+=(git ssh-agent k)
 source $ZSH/oh-my-zsh.sh
-source /Users/kosta/.oh-my-zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+source $ZSH/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+source $ZSH/iterm_plugin.zsh
+
+# Auto complete configs
+setopt autocd cdablevars
 
 # User configuration
 
@@ -96,4 +98,4 @@ export NVM_DIR="$HOME/.nvm"
 
 alias up='glide up;mkdir vendor/src;mv vendor/* vendor/src'
 
-[[ -s "/Users/kosta/.gvm/scripts/gvm" ]] && source "/Users/kosta/.gvm/scripts/gvm"
+[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
